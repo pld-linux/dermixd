@@ -34,7 +34,8 @@ Group:		Applications/Sound
 Two PERL Modules for talking to DerMixD:
 - DerMixD::Base for basic communication
 - DerMixD::Control for basic control with a bit smartness (using Base)
-  Two command line PERL script utilizing the Control module:
+
+Two command line PERL script utilizing the Control module:
 - dermixd-control for direct control and executing scripts of dermixd
   commands
 - simple_player player script reading (absolute) file names from stdin
@@ -43,8 +44,9 @@ Two PERL Modules for talking to DerMixD:
 %description frontend -l hu.UTF-8
 Két PERL modul:
 - DerMixD::Base az alapvető kommunikációra
-- DerMixD::Control az alapvető irányításra (a Base-t használja) Két
-  parancssori PERL-szkript a Control modult felhasználva:
+- DerMixD::Control az alapvető irányításra (a Base-t használja)
+
+Két parancssori PERL-szkript a Control modult felhasználva:
 - dermixd-control közvetlen irányításra és dermixd-szkriptek
   futtatására
 - simple_player egy lejátszó szkript, amely (abszolút) fájlneveket
