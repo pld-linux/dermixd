@@ -1,0 +1,21 @@
+--- dermixd-1.6.2/common.hxx~	2008-01-18 01:32:38.000000000 +0100
++++ dermixd-1.6.2/common.hxx	2008-10-17 20:51:40.000000000 +0200
+@@ -20,6 +20,7 @@
+ #include <queue>
+ #include <limits.h>
+ #include <errno.h>
++#include <string.h>
+ // For hacky thread scheduling on Linux.
+ #ifdef LINUX
+ #include <sys/time.h>
+--- dermixd-1.6.2/param.hxx~	2008-02-24 01:25:32.000000000 +0100
++++ dermixd-1.6.2/param.hxx	2008-10-17 20:54:38.000000000 +0200
+@@ -16,6 +16,8 @@
+ 	You can retrieve a copy of the current string value of a parameter or an interpreted bool, usigned int or unsigned long int value.
+ */
+ 
++#include <string.h>
++
+ class parm
+ {
+ 	public:
