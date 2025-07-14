@@ -55,7 +55,7 @@ Két parancssori PERL-szkript a Control modult felhasználva:
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__make} gnu-alsa SNDFILE=yes VORBISFILE=yes
